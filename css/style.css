@@ -71,6 +71,24 @@
   color: var(--primary);
 }
 
+@media (max-width: 768px) {
+  .navbar-brand {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .company-logo {
+    margin-right: 0 !important;
+    margin-bottom: 10px;
+  }
+
+  .navbar-brand h1 {
+    font-size: 1.2rem;
+  }
+}
+
 @media (min-width: 992px) {
   .navbar-dark .navbar-nav .nav-link::before {
     position: absolute;
