@@ -71,6 +71,7 @@
   color: var(--primary);
 }
 
+/*SAMUEL*/
 @media (max-width: 768px) {
   .navbar-brand {
     display: flex !important;
@@ -80,8 +81,9 @@
   }
 
   .company-logo {
-    margin-right: 0 !important;
-    margin-bottom: 10px;
+    width: 90%;
+    height: auto;
+    object-fit: contain;
   }
 
   .navbar-brand h1 {
@@ -109,6 +111,20 @@
 }
 
 @media (max-width: 991.98px) {
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    align-items: center;
+    border-right: none !important;
+    padding-right: 0 !important;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 12px 0;
+  }
+
   .navbar-dark .navbar-nav .nav-link {
     margin-left: 0;
     padding: 10px 0;
