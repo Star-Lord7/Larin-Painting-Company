@@ -74,7 +74,7 @@
 /*SAMUEL*/
 @media (max-width: 768px) {
   .navbar-brand {
-    display: flex !important;
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -111,23 +111,17 @@
 }
 
 @media (max-width: 991.98px) {
-  .navbar-collapse {
-    text-align: center;
-  }
-
-  .navbar-nav {
-    align-items: center;
-    border-right: none !important;
-    padding-right: 0 !important;
-  }
-
-  .navbar-nav .nav-link {
-    padding: 12px 0;
+  .bg-hero {
+    background-size: cover;
   }
 
   .navbar-dark .navbar-nav .nav-link {
     margin-left: 0;
     padding: 10px 0;
+  }
+
+  .sticky-top .navbar-brand {
+    display: none;
   }
 }
 
@@ -136,12 +130,6 @@
   background-size: contain;
   border-radius: 30px;
   overflow: hidden;
-}
-
-@media (max-width: 991.98px) {
-  .bg-hero {
-    background-size: cover;
-  }
 }
 
 .about-start,
