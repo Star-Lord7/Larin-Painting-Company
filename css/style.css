@@ -264,12 +264,30 @@
 }
 
 .bg-testimonial {
-  background: url(../img/testimonial.jpg) top left no-repeat;
-  background-size: contain;
+  background:
+    linear-gradient(
+      to left,
+      var(--primary) 0%,
+      rgba(229, 153, 58, 0.85) 35%,
+      rgba(229, 153, 58, 0.35) 60%,
+      rgba(229, 153, 58, 0) 100%
+    ),
+    url(../img/testimonial.jpeg) top left no-repeat;
+
+  background-size:
+    100% 100%,
+    contain;
+  background-position:
+    center,
+    top left;
 }
 
 @media (max-width: 991.98px) {
   .bg-testimonial {
+    background:
+      linear-gradient(rgba(229, 153, 58, 0.3), rgba(229, 153, 58, 0.3)),
+      url(../img/testimonial.jpeg) center center no-repeat;
+
     background-size: cover;
   }
 }
