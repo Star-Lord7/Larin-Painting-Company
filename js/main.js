@@ -10,6 +10,16 @@
     }
   });
 
+  $(window).scroll(function () {
+    if ($(window).width() < 992) {
+      if ($(this).scrollTop() > 40) {
+        $(".company-logo").addClass("logo-hidden");
+      } else {
+        $(".company-logo").removeClass("logo-hidden");
+      }
+    }
+  });
+
   // Dropdown on mouse hover
   $(document).ready(function () {
     function toggleNavbarMethod() {

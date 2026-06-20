@@ -120,7 +120,7 @@
     padding: 10px 0;
   }
 
-  .sticky-top .navbar-brand {
+  .company-logo.logo-hidden {
     display: none;
   }
 }
