@@ -668,6 +668,12 @@ progress {
   .container {
     max-width: 960px;
   }
+
+  .gallery-image {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+  }
 }
 @media (min-width: 1200px) {
   .container-xl,
@@ -2847,6 +2853,16 @@ fieldset:disabled .btn {
   background-color: rgb(32, 36, 43);
   border-color: rgb(0, 0, 0);
 }
+.btn-secondary-projects {
+  color: #000;
+  background-color: #e9a858;
+  border-color: #000000;
+}
+.btn-secondary-projects:hover {
+  color: #ffffff !important;
+  background-color: rgb(32, 36, 43);
+  border-color: rgb(0, 0, 0);
+}
 .btn-check:focus + .btn-secondary,
 .btn-secondary:focus {
   color: #000;
@@ -2875,6 +2891,16 @@ fieldset:disabled .btn {
   color: #000;
   background-color: #e5993a;
   border-color: #e5993a;
+}
+
+@media (max-width: 768px) {
+  .btn-secondary-projects {
+    color: #000;
+    background-color: #e5993a;
+    border-color: #000000;
+    display: block;
+    margin: 0 3rem;
+  }
 }
 
 .btn-success {

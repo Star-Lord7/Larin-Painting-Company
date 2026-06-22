@@ -128,13 +128,12 @@
 .bg-hero {
   background: url(../img/hero.jpeg) top right no-repeat;
   background-size: contain;
-  border-radius: 30px;
   overflow: hidden;
 }
 
 .about-start,
 .about-end {
-  background: url(../img/about-bg.jpg) center center no-repeat;
+  /* background: url(../img/about-bg.jpg) center center no-repeat; */
   background-size: contain;
 }
 

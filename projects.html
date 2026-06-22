@@ -28,27 +28,30 @@
     />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="/lib/owlcarousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
   </head>
 
   <body>
     <!-- Topbar Start -->
-    <div class="container-fluid bg-dark d-none d-lg-block">
+    <div class="container-fluid bg-primary d-none d-lg-block">
       <div class="container">
         <div class="row">
           <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
             <div class="d-inline-flex align-items-center">
-              <a class="text-white py-2 pe-3 border-end border-white" href=""
+              <a class="text-dark py-2 pe-3 border-end border-white" href=""
                 ><i class="bi bi-telephone text-secondary me-2"></i>+612 594
                 2266</a
               >
-              <a class="text-white py-2 px-3" href=""
+              <a class="text-dark py-2 px-3" href=""
                 ><i class="bi bi-envelope text-secondary me-2"></i
                 >info@example.com</a
               >
@@ -108,8 +111,8 @@
           class="navbar-nav ms-auto py-0 pe-4 border-end border-5 border-dark"
         >
           <a href="index.html" class="nav-item nav-link">Home</a>
-          <a href="about.html" class="nav-item nav-link">About</a>
-          <a href="service.html" class="nav-item nav-link active">Service</a>
+          <a href="about.html" class="nav-item nav-link active">About</a>
+          <a href="service.html" class="nav-item nav-link">Service</a>
           <!--<div class="nav-item dropdown">
             <a
               href="#"
@@ -138,15 +141,13 @@
     <!-- Navbar End -->
 
     <!-- Hero Start -->
-    <div
+    <!--<div
       class="container-fluid bg-primary py-5 bg-hero"
       style="margin-bottom: 90px"
     >
       <div class="container py-5">
         <div class="row justify-content-start">
-          <div
-            class="col-lg-8 text-center text-lg-start bg-secondary p-3 p-lg-5 rounded-3"
-          >
+          <div class="col-lg-8 text-center text-lg-start">
             <h1 class="display-1 text-dark">Our Services</h1>
             <div class="pt-2">
               <a href="" class="btn btn-secondary rounded-pill py-2 px-4 mx-2"
@@ -159,107 +160,448 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
     <!-- Hero End -->
 
     <!-- Services Start -->
-    <div class="container-fluid py-5">
+    <!-- Hero Start -->
+    <div
+      class="container-fluid bg-primary py-5 bg-hero"
+      style="margin-bottom: 20px"
+    >
       <div class="container py-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 500px">
-          <h1 class="display-5">Professional Painting Services</h1>
-          <hr class="w-25 mx-auto text-primary" style="opacity: 1" />
-        </div>
-        <div class="row gy-4 gx-3">
-          <div class="col-lg-4 col-md-6 pt-5">
-            <div
-              class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0"
-            >
-              <div class="service-icon p-3">
-                <div><i class="fa fa-2x fa-paint-brush"></i></div>
-              </div>
-              <h3 class="mt-5">
-                Residential painting services, Interior and exterior
-              </h3>
+        <div class="row justify-content-start">
+          <div
+            class="col-lg-8 text-center text-lg-start bg-secondary p-3 p-lg-5 rounded-3"
+          >
+            <h1 class="display-1 text-dark">Projects</h1>
+
+            <div class="pt-2">
               <a
-                class="btn shadow-none text-secondary"
-                href="/servicios/servicio1.html"
-                >View Detail<i class="bi bi-arrow-right ms-1"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 pt-5">
-            <div
-              class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0"
-            >
-              <div class="service-icon p-3">
-                <div><i class="fa fa-2x fa-paint-roller"></i></div>
-              </div>
-              <h3 class="mt-5">Paint Concrete, wood, aluminum, and stucco</h3>
+                href="./index.html"
+                class="btn btn-secondary rounded-pill py-2 px-4 mx-2"
+              >
+                Home
+              </a>
+
               <a
-                class="btn shadow-none text-secondary"
-                href="/servicios/servicio2.html"
-                >View Detail<i class="bi bi-arrow-right ms-1"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 pt-5">
-            <div
-              class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0"
-            >
-              <div class="service-icon p-3">
-                <div><i class="fa fa-2x fa-brush"></i></div>
-              </div>
-              <h3 class="mt-5">Finishing garage painting and flooring</h3>
-              <a
-                class="btn shadow-none text-secondary"
-                href="/servicios/servicio3.html"
-                >View Detail<i class="bi bi-arrow-right ms-1"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 pt-5">
-            <div
-              class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0"
-            >
-              <div class="service-icon p-3">
-                <div><i class="fa fa-2x fa-eraser"></i></div>
-              </div>
-              <h3 class="mt-5">Dry wall and plaster repairs</h3>
-              <a class="btn shadow-none text-secondary" href=""
-                >View Detail<i class="bi bi-arrow-right ms-1"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 pt-5">
-            <div
-              class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0"
-            >
-              <div class="service-icon p-3">
-                <div><i class="fa fa-2x fa-spray-can"></i></div>
-              </div>
-              <h3 class="mt-5">Remove ceiling texture</h3>
-              <a class="btn shadow-none text-secondary" href=""
-                >View Detail<i class="bi bi-arrow-right ms-1"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 pt-5">
-            <div
-              class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0"
-            >
-              <div class="service-icon p-3">
-                <div><i class="fa fa-2x fa-city"></i></div>
-              </div>
-              <h3 class="mt-5">Repair and Repainting</h3>
-              <a class="btn shadow-none text-secondary" href=""
-                >View Detail<i class="bi bi-arrow-right ms-1"></i
-              ></a>
+                href="./about.html"
+                class="btn btn-secondary rounded-pill py-2 px-4 mx-2"
+              >
+                About
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Services End -->
+
+    <!-- <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="mb-4">Projects</h1>
+
+          <p>
+            We provide professional interior and exterior painting services for
+            residential properties. Our experienced team ensures high-quality
+            finishes and long-lasting results.
+          </p>
+
+          <p>
+            Whether you need a complete home makeover or a simple room refresh,
+            we use premium materials and proven techniques to achieve
+            outstanding results.
+          </p>
+
+          <ul class="list-unstyled mt-4">
+            <li class="mb-2">
+              <i class="fa fa-check text-primary me-2"></i>
+              Interior Painting
+            </li>
+
+            <li class="mb-2">
+              <i class="fa fa-check text-primary me-2"></i>
+              Exterior Painting
+            </li>
+
+            <li class="mb-2">
+              <i class="fa fa-check text-primary me-2"></i>
+              Surface Preparation
+            </li>
+
+            <li class="mb-2">
+              <i class="fa fa-check text-primary me-2"></i>
+              Premium Paint Products
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Gallery Start -->
+    <div class="container-fluid py-5">
+      <div class="container py-2">
+        <!--<div class="text-center mx-auto mb-5" style="max-width: 600px">
+          <h1 class="display-5">Our Projects</h1>
+          <p class="mb-0">See the transformation of our painting projects.</p>
+          <hr class="w-25 mx-auto text-primary" style="opacity: 1" />
+        </div>-->
+
+        <!-- Proyecto 1 -->
+        <div class="row g-4 mb-5">
+          <div class="col-12">
+            <h3 class="text-center mb-4">Fresh Interior Paint Makeover</h3>
+          </div>
+
+          <!-- Antes -->
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img
+                src="/img/antes1.jpeg"
+                class="img-fluid w-100 rounded-3 shadow gallery-image"
+                alt="Residential exterior painting before"
+              />
+              <span
+                class="position-absolute top-0 start-0 bg-dark text-white px-3 py-2 m-3 rounded"
+              >
+                Before
+              </span>
+            </div>
+          </div>
+
+          <!-- Después -->
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img
+                src="/img/despues1.jpeg"
+                class="img-fluid w-100 rounded-3 shadow gallery-image"
+                alt="Residential exterior painting after"
+              />
+              <span
+                class="position-absolute top-0 start-0 bg-secondary text-dark px-3 py-2 m-3 rounded"
+              >
+                After
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 2 -->
+        <div class="row g-4 mb-5">
+          <div class="col-12">
+            <h3 class="text-center mb-4">
+              Complete Home Exterior Transformation
+            </h3>
+          </div>
+
+          <!-- Antes -->
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img
+                src="/img/antes2.jpeg"
+                class="img-fluid w-100 rounded-3 shadow gallery-image"
+                alt="Garage before painting and flooring"
+              />
+              <span
+                class="position-absolute top-0 start-0 bg-dark text-white px-3 py-2 m-3 rounded"
+              >
+                Before
+              </span>
+            </div>
+          </div>
+
+          <!-- Después -->
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img
+                src="/img/despues2.jpeg"
+                class="img-fluid w-100 rounded-3 shadow gallery-image"
+                alt="Garage after painting and flooring"
+              />
+              <span
+                class="position-absolute top-0 start-0 bg-secondary text-dark px-3 py-2 m-3 rounded"
+              >
+                After
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 3 -->
+        <div class="row g-4 mb-5">
+          <div class="col-12">
+            <h3 class="text-center mb-4">Bedroom Painting Transformation</h3>
+          </div>
+
+          <!-- Antes -->
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img
+                src="/img/antes3.jpeg"
+                class="img-fluid w-100 rounded-3 shadow gallery-image"
+                alt="Interior wall before restoration"
+              />
+              <span
+                class="position-absolute top-0 start-0 bg-dark text-white px-3 py-2 m-3 rounded"
+              >
+                Before
+              </span>
+            </div>
+          </div>
+
+          <!-- Después -->
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img
+                src="/img/despues3.jpeg"
+                class="img-fluid w-100 rounded-3 shadow gallery-image"
+                alt="Interior wall after restoration"
+              />
+              <span
+                class="position-absolute top-0 start-0 bg-secondary text-dark px-3 py-2 m-3 rounded"
+              >
+                After
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 4 -->
+        <div class="row g-4 mb-5">
+          <div class="col-12">
+            <h3 class="text-center mb-4">Interior Wall Restoration</h3>
+          </div>
+
+          <!-- Antes -->
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img
+                src="/img/antes4.jpeg"
+                class="img-fluid w-100 rounded-3 shadow gallery-image"
+                alt="Interior wall before restoration"
+              />
+              <span
+                class="position-absolute top-0 start-0 bg-dark text-white px-3 py-2 m-3 rounded"
+              >
+                Before
+              </span>
+            </div>
+          </div>
+
+          <!-- Después -->
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img
+                src="/img/despues4.jpeg"
+                class="img-fluid w-100 rounded-3 shadow gallery-image"
+                alt="Interior wall after restoration"
+              />
+              <span
+                class="position-absolute top-0 start-0 bg-secondary text-dark px-3 py-2 m-3 rounded"
+              >
+                After
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 5 -->
+        <div class="row g-4 mb-5">
+          <div class="col-12">
+            <h3 class="text-center mb-4">Wood Surface Restoration</h3>
+          </div>
+
+          <!-- Antes -->
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img
+                src="/img/antes5.jpeg"
+                class="img-fluid w-100 rounded-3 shadow gallery-image"
+                alt="Interior wall before restoration"
+              />
+              <span
+                class="position-absolute top-0 start-0 bg-dark text-white px-3 py-2 m-3 rounded"
+              >
+                Before
+              </span>
+            </div>
+          </div>
+
+          <!-- Después -->
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img
+                src="/img/despues5.jpeg"
+                class="img-fluid w-100 rounded-3 shadow gallery-image"
+                alt="Interior wall after restoration"
+              />
+              <span
+                class="position-absolute top-0 start-0 bg-secondary text-dark px-3 py-2 m-3 rounded"
+              >
+                After
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 6 -->
+        <div class="row g-4 mb-5">
+          <div class="col-12">
+            <h3 class="text-center mb-4">Deck Staining and Refinishing</h3>
+          </div>
+
+          <!-- Antes -->
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img
+                src="/img/antes6.jpeg"
+                class="img-fluid w-100 rounded-3 shadow gallery-image"
+                alt="Interior wall before restoration"
+              />
+              <span
+                class="position-absolute top-0 start-0 bg-dark text-white px-3 py-2 m-3 rounded"
+              >
+                Before
+              </span>
+            </div>
+          </div>
+
+          <!-- Después -->
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img
+                src="/img/despues6.jpeg"
+                class="img-fluid w-100 rounded-3 shadow gallery-image"
+                alt="Interior wall after restoration"
+              />
+              <span
+                class="position-absolute top-0 start-0 bg-secondary text-dark px-3 py-2 m-3 rounded"
+              >
+                After
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 7 -->
+        <div class="row g-4 mb-5">
+          <div class="col-12">
+            <h3 class="text-center mb-4">Door and Trim Repainting</h3>
+          </div>
+
+          <!-- Antes -->
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img
+                src="/img/antes7.jpeg"
+                class="img-fluid w-100 rounded-3 shadow gallery-image"
+                alt="Interior wall before restoration"
+              />
+              <span
+                class="position-absolute top-0 start-0 bg-dark text-white px-3 py-2 m-3 rounded"
+              >
+                Before
+              </span>
+            </div>
+          </div>
+
+          <!-- Después -->
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img
+                src="/img/despues7.jpeg"
+                class="img-fluid w-100 rounded-3 shadow gallery-image"
+                alt="Interior wall after restoration"
+              />
+              <span
+                class="position-absolute top-0 start-0 bg-secondary text-dark px-3 py-2 m-3 rounded"
+              >
+                After
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 8 -->
+        <div class="row g-4 mb-5">
+          <div class="col-12">
+            <h3 class="text-center mb-4">Garage Wall and Floor Upgrade</h3>
+          </div>
+
+          <!-- Antes -->
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img
+                src="/img/antes8.jpeg"
+                class="img-fluid w-100 rounded-3 shadow gallery-image"
+                alt="Interior wall before restoration"
+              />
+              <span
+                class="position-absolute top-0 start-0 bg-dark text-white px-3 py-2 m-3 rounded"
+              >
+                Before
+              </span>
+            </div>
+          </div>
+
+          <!-- Después -->
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img
+                src="/img/despues8.jpeg"
+                class="img-fluid w-100 rounded-3 shadow gallery-image"
+                alt="Interior wall after restoration"
+              />
+              <span
+                class="position-absolute top-0 start-0 bg-secondary text-dark px-3 py-2 m-3 rounded"
+              >
+                After
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 9 -->
+        <div class="row g-4 mb-5">
+          <div class="col-12">
+            <h3 class="text-center mb-4">Interior Wall Color Update</h3>
+          </div>
+
+          <!-- Antes -->
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img
+                src="/img/antes9.jpeg"
+                class="img-fluid w-100 rounded-3 shadow gallery-image"
+                alt="Interior wall before restoration"
+              />
+              <span
+                class="position-absolute top-0 start-0 bg-dark text-white px-3 py-2 m-3 rounded"
+              >
+                Before
+              </span>
+            </div>
+          </div>
+
+          <!-- Después -->
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img
+                src="/img/despues9.jpeg"
+                class="img-fluid w-100 rounded-3 shadow gallery-image"
+                alt="Interior wall after restoration"
+              />
+              <span
+                class="position-absolute top-0 start-0 bg-secondary text-dark px-3 py-2 m-3 rounded"
+              >
+                After
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Gallery End -->
 
     <!-- Testimonial Start -->
     <div
@@ -281,7 +623,7 @@
                 <div class="d-flex align-items-center">
                   <img
                     class="img-fluid p-1 bg-secondary"
-                    src="img/testimonial-1.jpg"
+                    src="/img/testimonial-1.jpg"
                     alt=""
                   />
                   <div class="ps-3">
@@ -300,7 +642,7 @@
                 <div class="d-flex align-items-center">
                   <img
                     class="img-fluid p-1 bg-secondary"
-                    src="img/testimonial-2.jpg"
+                    src="/img/testimonial-2.jpg"
                     alt=""
                   />
                   <div class="ps-3">
@@ -324,7 +666,7 @@
             <div class="position-relative h-100">
               <img
                 class="position-absolute w-100 h-100"
-                src="img/about1.jpeg"
+                src="/img/about1.jpeg"
                 style="object-fit: cover"
               />
             </div>
@@ -357,9 +699,9 @@
     >
       <div class="container py-5">
         <div class="row g-0 justify-content-start">
-          <div class="col-lg-3 bg-secondary p-5 rounded-3">
-            <h1 class="display-6 mb-4">Do You Have Any Project?</h1>
-            <p class="fs-4 fw-normal text-dark mb-4">
+          <div class="col-lg-6">
+            <h1 class="display-5 mb-4">Do You Have Any Project?</h1>
+            <p class="fs-4 fw-normal">
               If you have any project in mind, feel free to contact us. We are
               here to help you with your project and make it a success
             </p>
@@ -517,11 +859,11 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="/lib/easing/easing.min.js"></script>
+    <script src="/lib/waypoints/waypoints.min.js"></script>
+    <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>
