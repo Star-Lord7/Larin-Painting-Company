@@ -671,7 +671,13 @@ progress {
 
   .gallery-image {
     width: 100%;
-    height: 550px;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .gallery-image-service1 {
+    width: 100%;
+    height: 350px;
     object-fit: cover;
   }
 }
