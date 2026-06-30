@@ -221,7 +221,7 @@
           style="margin-top: -200px; z-index: 1"
         >
           <div class="col-lg-8">
-            <div class="bg-secondary p-5 m-5 mb-0">
+            <div class="bg-secondary p-5 mb-0 mt-5">
               <form>
                 <div class="row g-3">
                   <div class="col-12 col-sm-6">
@@ -234,25 +234,35 @@
                   </div>
                   <div class="col-12 col-sm-6">
                     <input
-                      type="email"
+                      type="tel"
                       class="form-control bg-white border-0"
-                      placeholder="Your Email"
+                      placeholder="Your Telephone"
                       style="height: 55px"
                     />
                   </div>
                   <div class="col-12">
-                    <input
-                      type="text"
-                      class="form-control bg-white border-0"
-                      placeholder="Subject"
+                    <select
+                      class="form-select bg-white border-0 w-100"
                       style="height: 55px"
-                    />
+                    >
+                      <option selected disabled>Select a Service</option>
+                      <option>Interior Painting</option>
+                      <option>Exterior Painting</option>
+                      <option>Cabinet Painting</option>
+                      <option>Deck & Fence Staining</option>
+                      <option>Drywall Repair</option>
+                      <option>Garage Floor Coating</option>
+                      <option>Pressure Washing</option>
+                      <option>Commercial Painting</option>
+                      <option>Residential Painting</option>
+                      <option>Other</option>
+                    </select>
                   </div>
                   <div class="col-12">
                     <textarea
                       class="form-control bg-white border-0"
                       rows="5"
-                      placeholder="Message"
+                      placeholder="Describe Your Project"
                     ></textarea>
                   </div>
                   <div class="col-12">
