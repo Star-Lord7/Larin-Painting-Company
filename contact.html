@@ -276,23 +276,66 @@
                     ></textarea>
                   </div>
                   <div class="col-12">
+                    <label class="form-label text-white mb-3">
+                      How would you like to contact us?
+                    </label>
+
+                    <div class="row g-2">
+                      <div class="col-12 col-md-4">
+                        <input
+                          type="radio"
+                          class="btn-check"
+                          name="contactMethod"
+                          id="btnWhatsapp"
+                          value="whatsapp"
+                          checked
+                        />
+                        <label
+                          class="btn btn-outline-success w-100"
+                          for="btnWhatsapp"
+                        >
+                          <i class="fab fa-whatsapp me-2"></i> WhatsApp
+                        </label>
+                      </div>
+
+                      <div class="col-12 col-md-4">
+                        <input
+                          type="radio"
+                          class="btn-check"
+                          name="contactMethod"
+                          id="btnEmail"
+                          value="email"
+                        />
+                        <label
+                          class="btn btn-outline-warning w-100"
+                          for="btnEmail"
+                        >
+                          <i class="fas fa-envelope me-2"></i> Email
+                        </label>
+                      </div>
+
+                      <div class="col-12 col-md-4">
+                        <input
+                          type="radio"
+                          class="btn-check"
+                          name="contactMethod"
+                          id="btnSms"
+                          value="sms"
+                        />
+                        <label class="btn btn-outline-info w-100" for="btnSms">
+                          <i class="fas fa-sms me-2"></i> SMS
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
                     <button
                       type="button"
                       class="btn btn-secondary w-100 py-3"
-                      onclick="sendWhatsApp()"
+                      onclick="sendRequest()"
                     >
-                      Send Message on WhatsApp
+                      Send Request
                     </button>
-                    <!-- <button class="btn btn-secondary w-100 py-3" type="submit">
-                      Send Message
-                    </button> -->
-                    <!-- <a
-                      href="https://wa.me/16125942266"
-                      class="btn btn-secondary w-100 py-3"
-                      target="_blank"
-                    >
-                      Send Message on WhatsApp
-                    </a> -->
                   </div>
                 </div>
               </form>

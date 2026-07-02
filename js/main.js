@@ -67,25 +67,37 @@
   });
 })(jQuery);
 
-function sendWhatsApp() {
+function sendRequest() {
   const name = document.getElementById("name").value;
   const phone = document.getElementById("phone").value;
   const service = document.getElementById("service").value;
   const project = document.getElementById("message").value;
 
-  const text = `Hello!
+  const method = document.querySelector(
+    'input[name="contactMethod"]:checked',
+  ).value;
 
-My name is: ${name}
+  const text = `New Painting Request
 
-Phone: ${phone}
+My Name: ${name}
 
-Service:
-${service}
+My Phone: ${phone}
 
-Project Description:
+Service: ${service}
+
+Project:
 ${project}`;
 
-  const url = `https://wa.me/16125942266?text=${encodeURIComponent(text)}`;
+  if (method === "whatsapp") {
+    window.open(
+      `https://wa.me/16125942266?text=${encodeURIComponent(text)}`,
+      "_blank",
+    );
+  } else if (method === "email") {
+    const subject = "Painting Service Request";
 
-  window.open(url, "_blank");
+    window.location.href = `mailto:info@larinpainting.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
+  } else if (method === "sms") {
+    window.location.href = `sms:+16125942266?body=${encodeURIComponent(text)}`;
+  }
 }
