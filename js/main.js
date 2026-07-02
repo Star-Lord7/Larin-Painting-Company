@@ -95,8 +95,7 @@ ${project}`;
     );
   } else if (method === "email") {
     const subject = "Painting Service Request";
-
-    window.location.href = `mailto:info@larinpainting.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
+    window.location.href = `mailto:larinpainting@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
   } else if (method === "sms") {
     window.location.href = `sms:+16125942266?body=${encodeURIComponent(text)}`;
   }
