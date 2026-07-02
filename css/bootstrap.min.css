@@ -2856,7 +2856,7 @@ fieldset:disabled .btn {
 }
 .btn-secondary:hover {
   color: #ffffff !important;
-  background-color: rgb(32, 36, 43);
+  background-color: rgb(232.9, 168.3, 87.55);
   border-color: rgb(0, 0, 0);
 }
 .btn-secondary-projects {
@@ -3186,11 +3186,12 @@ fieldset:disabled .btn {
 
 .btn-outline-secondary {
   color: #000000;
+  background-color: #ffffff;
   border-color: #000000;
 }
 .btn-outline-secondary:hover {
   color: #ffffff !important;
-  background-color: rgb(32, 36, 43);
+  background-color: rgb(232.9, 168.3, 87.55);
   border-color: rgb(0, 0, 0);
 }
 .btn-check:focus + .btn-outline-secondary,
