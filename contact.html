@@ -145,9 +145,15 @@
       <div class="container py-5">
         <div class="row justify-content-start">
           <div
-            class="col-lg-8 text-center text-lg-start bg-secondary p-3 p-lg-5 rounded-3"
+            class="col-lg-5 text-center text-lg-start bg-dark p-3 p-lg-5 rounded-3"
           >
-            <h1 class="display-1 text-dark">Contact Us</h1>
+            <h1 class="display-5 text-white">Contact Us</h1>
+            <p class="fs-4 text-white mb-4">
+              We are here to help you with your project and make it a success.
+              If you have any questions or concerns, please do not hesitate to
+              reach out to us. Our team is always ready to assist you in any way
+              we can.
+            </p>
             <div class="pt-2">
               <a href="" class="btn btn-secondary rounded-pill py-2 px-4 mx-2"
                 >Home</a
@@ -221,11 +227,12 @@
           style="margin-top: -200px; z-index: 1"
         >
           <div class="col-lg-8">
-            <div class="bg-secondary p-5 mb-0 mt-5">
+            <div class="bg-dark p-5 mb-0 mt-5">
               <form>
                 <div class="row g-3">
                   <div class="col-12 col-sm-6">
                     <input
+                      id="name"
                       type="text"
                       class="form-control bg-white border-0"
                       placeholder="Your Name"
@@ -234,6 +241,7 @@
                   </div>
                   <div class="col-12 col-sm-6">
                     <input
+                      id="phone"
                       type="tel"
                       class="form-control bg-white border-0"
                       placeholder="Your Telephone"
@@ -242,6 +250,7 @@
                   </div>
                   <div class="col-12">
                     <select
+                      id="service"
                       class="form-select bg-white border-0 w-100"
                       style="height: 55px"
                     >
@@ -260,15 +269,30 @@
                   </div>
                   <div class="col-12">
                     <textarea
+                      id="message"
                       class="form-control bg-white border-0"
                       rows="5"
                       placeholder="Describe Your Project"
                     ></textarea>
                   </div>
                   <div class="col-12">
-                    <button class="btn btn-secondary w-100 py-3" type="submit">
-                      Send Message
+                    <button
+                      type="button"
+                      class="btn btn-secondary w-100 py-3"
+                      onclick="sendWhatsApp()"
+                    >
+                      Send Message on WhatsApp
                     </button>
+                    <!-- <button class="btn btn-secondary w-100 py-3" type="submit">
+                      Send Message
+                    </button> -->
+                    <!-- <a
+                      href="https://wa.me/16125942266"
+                      class="btn btn-secondary w-100 py-3"
+                      target="_blank"
+                    >
+                      Send Message on WhatsApp
+                    </a> -->
                   </div>
                 </div>
               </form>
@@ -286,14 +310,14 @@
     >
       <div class="container py-5">
         <div class="row g-0 justify-content-start">
-          <div class="col-lg-3 bg-secondary p-5 rounded-3">
-            <h1 class="display-6 mb-4">Do You Have Any Project?</h1>
-            <p class="fs-4 fw-normal text-dark mb-4">
+          <div class="col-lg-3 bg-dark p-5 rounded-3">
+            <h1 class="display-6 mb-4 text-white">Do You Have Any Project?</h1>
+            <p class="fs-4 fw-normal text-white mb-4">
               If you have any project in mind, feel free to contact us. We are
               here to help you with your project and make it a success
             </p>
             <a
-              href=""
+              href="/contact.html"
               class="btn btn-secondary rounded-pill py-md-3 px-md-5 mt-4"
               >Contact Us</a
             >

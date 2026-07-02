@@ -66,3 +66,26 @@
     ],
   });
 })(jQuery);
+
+function sendWhatsApp() {
+  const name = document.getElementById("name").value;
+  const phone = document.getElementById("phone").value;
+  const service = document.getElementById("service").value;
+  const project = document.getElementById("message").value;
+
+  const text = `Hello!
+
+My name is: ${name}
+
+Phone: ${phone}
+
+Service:
+${service}
+
+Project Description:
+${project}`;
+
+  const url = `https://wa.me/16125942266?text=${encodeURIComponent(text)}`;
+
+  window.open(url, "_blank");
+}
