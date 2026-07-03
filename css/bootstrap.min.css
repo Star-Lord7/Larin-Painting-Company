@@ -671,7 +671,7 @@ progress {
 
   .gallery-image {
     width: 100%;
-    height: 250px;
+    height: 450px;
     object-fit: cover;
   }
 
@@ -7580,6 +7580,10 @@ fieldset:disabled .btn {
 
 .text-nowrap {
   white-space: nowrap !important;
+}
+
+.about-text {
+  text-align: justify;
 }
 
 /* rtl:begin:remove */
