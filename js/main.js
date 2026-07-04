@@ -70,8 +70,38 @@
 function sendRequest() {
   const name = document.getElementById("name").value;
   const phone = document.getElementById("phone").value;
-  const service = document.getElementById("service").value;
   const project = document.getElementById("message").value;
+
+  if (name === "") {
+    const form = document.getElementById("quoteForm");
+
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+  }
+
+  if (phone === "") {
+    const form = document.getElementById("quoteForm");
+
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+  }
+
+  if (message === "") {
+    const form = document.getElementById("quoteForm");
+
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+  }
+
+  const services = [...document.querySelectorAll(".service-checkbox:checked")]
+    .map((item) => item.value)
+    .join(", ");
 
   const method = document.querySelector(
     'input[name="contactMethod"]:checked',
@@ -83,7 +113,7 @@ My Name: ${name}
 
 My Phone: ${phone}
 
-Service: ${service}
+Service: ${services || "No service selected"}
 
 Project:
 ${project}`;
@@ -99,4 +129,21 @@ ${project}`;
   } else if (method === "sms") {
     window.location.href = `sms:+16125942266?body=${encodeURIComponent(text)}`;
   }
+
+  document.getElementById("quoteForm").reset();
+  window.open(url, "_blank");
+  resetForm();
+}
+
+function resetForm() {
+  // Limpia todos los campos
+  document.getElementById("quoteForm").reset();
+
+  // Deselecciona todos los servicios
+  document.querySelectorAll(".service-checkbox").forEach((cb) => {
+    cb.checked = false;
+  });
+
+  // Deja WhatsApp seleccionado por defecto
+  document.getElementById("btnWhatsapp").checked = true;
 }
