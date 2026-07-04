@@ -157,14 +157,14 @@
 
 .service-item,
 .contact-item {
-  background: url(../img/service.jpg) top center no-repeat;
+  background: url(../img/service.png) top center no-repeat;
   background-size: cover;
   transition: 0.5s;
 }
 
 .service-item:hover,
 .contact-item:hover {
-  background: url(../img/service.jpg) bottom center no-repeat;
+  background: url(../img/service.png) bottom center no-repeat;
   background-size: cover;
 }
 
@@ -173,7 +173,7 @@
   margin-top: -50px;
   width: 100px;
   height: 100px;
-  color: var(--secondary);
+  color: var(--dark);
   background: #ffffff;
   transform: rotate(-45deg);
 }
@@ -197,7 +197,7 @@
 
 .service-item:hover .service-icon div,
 .contact-item:hover .contact-icon div {
-  background: var(--secondary);
+  background: var(--dark);
 }
 
 .service-item:hover .service-icon i,

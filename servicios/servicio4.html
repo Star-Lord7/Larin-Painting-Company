@@ -28,13 +28,16 @@
     />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="/lib/owlcarousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -91,10 +94,10 @@
     <nav
       class="navbar navbar-expand-lg bg-white navbar-dark shadow-sm px-5 py-3 py-lg-0"
     >
-      <a href="index.html" class="navbar-brand p-0">
+      <a href="../index.html" class="navbar-brand p-0">
         <img
           class="company-logo me-3"
-          src="img/logo.jpeg"
+          src="./../img/logo.jpeg"
           alt="Larin Painting Logo"
         />
       </a>
@@ -116,9 +119,9 @@
         <div
           class="navbar-nav ms-auto py-0 pe-4 border-end border-5 border-dark"
         >
-          <a href="index.html" class="nav-item nav-link">Home</a>
-          <a href="about.html" class="nav-item nav-link active">About</a>
-          <a href="service.html" class="nav-item nav-link">Service</a>
+          <a href="../index.html" class="nav-item nav-link">Home</a>
+          <a href="../about.html" class="nav-item nav-link">About</a>
+          <a href="../service.html" class="nav-item nav-link active">Service</a>
           <!--<div class="nav-item dropdown">
             <a
               href="#"
@@ -127,13 +130,15 @@
               >Pages</a
             >
             <div class="dropdown-menu m-0">
-              <a href="blog.html" class="dropdown-item">Blog Grid</a>
-              <a href="detail.html" class="dropdown-item">Blog Detail</a>
-              <a href="team.html" class="dropdown-item">The Team</a>
-              <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+              <a href="../blog.html" class="dropdown-item">Blog Grid</a>
+              <a href="../detail.html" class="dropdown-item">Blog Detail</a>
+              <a href="../team.html" class="dropdown-item">The Team</a>
+              <a href="../testimonial.html" class="dropdown-item"
+                >Testimonial</a
+              >
             </div>
           </div>-->
-          <a href="contact.html" class="nav-item nav-link">Contact</a>
+          <a href="../contact.html" class="nav-item nav-link">Contact</a>
         </div>
         <div class="d-none d-lg-flex align-items-center ps-4">
           <i class="fa fa-2x fa-mobile-alt text-secondary me-3"></i>
@@ -147,7 +152,31 @@
     <!-- Navbar End -->
 
     <!-- Hero Start -->
-    <div class="container-fluid px-0" style="margin-bottom: 90px">
+    <!--<div
+      class="container-fluid bg-primary py-5 bg-hero"
+      style="margin-bottom: 90px"
+    >
+      <div class="container py-5">
+        <div class="row justify-content-start">
+          <div class="col-lg-8 text-center text-lg-start">
+            <h1 class="display-1 text-dark">Our Services</h1>
+            <div class="pt-2">
+              <a href="" class="btn btn-secondary rounded-pill py-2 px-4 mx-2"
+                >Home</a
+              >
+              <a href="" class="btn btn-secondary rounded-pill py-2 px-4 mx-2"
+                >Our Services</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>-->
+    <!-- Hero End -->
+
+    <!-- Services Start -->
+    <!-- Hero Start -->
+    <div class="container-fluid px-0">
       <div class="row g-0 align-items-stretch">
         <!-- Imagen -->
         <div class="col-lg-6 order-1 order-lg-2">
@@ -160,90 +189,340 @@
         >
           <div class="p-4 p-lg-5 w-100">
             <div class="bg-dark rounded-3 p-4 p-lg-5">
-              <h1 class="display-5 text-white mb-4 text-center">About Us</h1>
-              <p class="fs-9 text-white mb-4 text-center">
-                We are a professional painting company dedicated to transforming
-                and protecting residential and commercial spaces. Our team of
-                skilled painters is committed to delivering exceptional interior
-                and exterior painting services, ensuring that every project is
-                completed with precision, care, and attention to detail
-              </p>
+              <h1 class="display-4 text-white mb-4 text-center">
+                Dry wall and plaster repairs
+              </h1>
+
               <div class="d-flex justify-content-center gap-3">
                 <a
-                  href="index.html"
-                  class="btn btn-secondary rounded-pill py-md-3 px-md-5 mx-2"
-                  >Home</a
+                  href="../index.html"
+                  class="btn btn-secondary rounded-pill px-4 py-2"
                 >
+                  Home
+                </a>
+
                 <a
-                  href="contact.html"
-                  class="btn btn-secondary rounded-pill py-md-3 px-md-5 mx-2"
-                  >Get A Quote</a
+                  href="../service.html"
+                  class="btn btn-secondary rounded-pill px-4 py-2"
                 >
+                  Services
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Hero End -->
 
-    <!-- About Start -->
-    <div class="container-fluid py-1">
+    <div class="container py-4 about-text">
+      <div class="row mx-0 align-items-center">
+        <!-- Imagen -->
+        <!-- <div class="col-lg-6">
+          <img
+            src="/img/service1/service1.1.jpeg"
+            class="img-fluid rounded shadow"
+            alt="Residential Painting"
+          />
+        </div>
+
+        <div class="col-lg-6">
+          <img
+            src="/img/service1/service1.2.jpeg"
+            class="img-fluid rounded shadow"
+            alt="Residential Painting"
+          />
+        </div> -->
+
+        <!-- Información -->
+        <div class="col-lg-12">
+          <!-- <h1
+            class="mb-2 d-flex align-items-center"
+            style="justify-content: center"
+          >
+            Residential Painting Services
+          </h1> -->
+
+          <p>
+            Renew, protect, and enhance your home with professional interior and
+            exterior painting services. At Larin Painting LLC, we use premium
+            materials and expert techniques to deliver durable finishes,
+            consistent results, and exceptional craftsmanship.
+          </p>
+
+          <p>
+            Whether you want to refresh a single room, transform your home's
+            exterior, or give your entire property a brand-new look, our
+            experienced team is committed to precision, cleanliness, and
+            meticulous attention to every detail. We carefully protect your
+            furniture, floors, landscaping, and work areas to ensure a
+            worry-free experience from start to finish.
+          </p>
+
+          <p>
+            Our commitment is to provide flawless finishes that combine quality,
+            durability, and professionalism in every project, delivering results
+            that not only enhance your home's appearance but also increase its
+            long-term value.
+          </p>
+
+          <ul class="list-unstyled mt-4 mb-0">
+            <li class="d-flex align-items-start mb-3">
+              <i class="fa fa-paint-brush text-secondary me-3"></i>
+              Professional Interior Painting
+            </li>
+
+            <li class="d-flex align-items-start mb-3">
+              <i class="fa fa-paint-brush text-secondary me-3"></i>
+              Professional Exterior Painting
+            </li>
+
+            <li class="d-flex align-items-start mb-3">
+              <i class="fa fa-paint-brush text-secondary me-3"></i>
+              Complete Surface Preparation
+            </li>
+
+            <li class="d-flex align-items-start mb-3">
+              <i class="fa fa-paint-brush text-secondary me-3"></i>
+              Careful Protection of Furniture, Floors, and Work Areas
+            </li>
+
+            <li class="d-flex align-items-start mb-3">
+              <i class="fa fa-paint-brush text-secondary me-3"></i>
+              Flawless Finishes and Complete Cleanup After Every Project
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-5">
+      <div class="text-center mb-5">
+        <h1 class="display-5">
+          Transform Your Home with Professional Painting Services
+        </h1>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <img
+            src="/img/service1/1.jpeg"
+            class="img-fluid rounded shadow gallery-image-service1"
+          />
+        </div>
+
+        <div class="col-md-4">
+          <img
+            src="/img/service1/2.jpeg"
+            class="img-fluid rounded shadow gallery-image-service1"
+          />
+        </div>
+
+        <div class="col-md-4">
+          <img
+            src="/img/service1/3.jpeg"
+            class="img-fluid rounded shadow gallery-image-service1"
+          />
+        </div>
+
+        <div class="col-md-4">
+          <img
+            src="/img/service1/4.jpeg"
+            class="img-fluid rounded shadow gallery-image-service1"
+          />
+        </div>
+
+        <div class="col-md-4">
+          <img
+            src="/img/service1/5.jpeg"
+            class="img-fluid rounded shadow gallery-image-service1"
+          />
+        </div>
+
+        <div class="col-md-4">
+          <img
+            src="/img/service1/6.jpeg"
+            class="img-fluid rounded shadow gallery-image-service1"
+          />
+        </div>
+
+        <div class="col-md-4">
+          <img
+            src="/img/service1/7.jpeg"
+            class="img-fluid rounded shadow gallery-image-service1"
+          />
+        </div>
+
+        <div class="col-md-4">
+          <img
+            src="/img/service1/8.jpeg"
+            class="img-fluid rounded shadow gallery-image-service1"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container py-5">
+      <div class="text-center mb-5">
+        <h1 class="display-5">Pricing</h1>
+      </div>
+
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead class="table-dark">
+            <tr>
+              <th>Service</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Single Room Painting</td>
+              <td>$250</td>
+            </tr>
+
+            <tr>
+              <td>Living Room Painting</td>
+              <td>$450</td>
+            </tr>
+
+            <tr>
+              <td>Exterior House Painting</td>
+              <td>$1,500</td>
+            </tr>
+
+            <tr>
+              <td>Complete House Painting</td>
+              <td>Custom Quote</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div> -->
+    <!-- Hero End -->
+    <!-- Services End -->
+
+    <!-- Testimonial Start -->
+    <div
+      class="container-fluid bg-primary bg-testimonial py-5"
+      style="margin: 90px 0"
+    >
       <div class="container py-5">
-        <div class="row gx-0 mb-3 mb-lg-0">
-          <div class="col-lg-6 my-lg-5 py-lg-5">
-            <div class="about-start bg-dark p-5">
-              <h1 class="display-5 mb-4 text-white">Mission</h1>
-              <p class="text-white">
-                At Larin Painting LLC, we transform and protect residential and
-                commercial spaces with top-quality interior and exterior
-                painting services. We are committed to providing clean,
-                punctual, and professional service, exceeding our clients'
-                expectations with every brushstroke and revitalizing their
-                properties.
-              </p>
-              <a
-                href=""
-                class="btn btn-secondary rounded-pill py-md-3 px-md-5 mt-4"
-                >Contact Us</a
-              >
-            </div>
-          </div>
-          <div class="col-lg-6" style="min-height: 400px">
-            <div class="position-relative h-100">
-              <img
-                class="position-absolute w-100 h-100"
-                src="img/mision.jpeg"
-                style="object-fit: cover"
-              />
+        <div class="row g-0 justify-content-end">
+          <div class="col-lg-6">
+            <h1 class="display-5 mb-4">Testimonials</h1>
+            <div class="owl-carousel testimonial-carousel">
+              <div class="testimonial-item">
+                <p class="fs-4 fw-normal text-dark">
+                  <i class="fa fa-quote-left text-secondary me-3"></i>Wow! We
+                  just had our garage done by these men and it looks stunning.
+                  We are so impressed by their work and ability to get the job
+                  done both with high quality and efficiency. We would
+                  absolutely recommend them to anyone looking for a reliable
+                  painting service.
+                </p>
+                <div class="d-flex align-items-center">
+                  <img
+                    class="img-fluid p-1 bg-secondary"
+                    src="/img/testimonial-1.jpg"
+                    alt=""
+                  />
+                  <div class="ps-3">
+                    <h3>Jenna Graveline</h3>
+                    <span class="text-uppercase">Profession</span>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-item">
+                <p class="fs-4 fw-normal text-dark">
+                  <i class="fa fa-quote-left text-secondary me-3"></i>Vey great
+                  Team work and dedication to help people in the community, Jose
+                  is very good in his work and I recommend him for all the hard
+                  work with his team.
+                </p>
+                <div class="d-flex align-items-center">
+                  <img
+                    class="img-fluid p-1 bg-secondary"
+                    src="/img/testimonial-1.jpg"
+                    alt=""
+                  />
+                  <div class="ps-3">
+                    <h3>Sandra Ramirez</h3>
+                    <span class="text-uppercase">Profession</span>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-item">
+                <p class="fs-4 fw-normal text-dark">
+                  <i class="fa fa-quote-left text-secondary me-3"></i>Hello all.
+                  Noel and his crew were on time on on task. They got the job
+                  done and went above and beyond!!! When I need anymore painting
+                  Nel will be my first call...period!!! Thank you guys!!!
+                </p>
+                <div class="d-flex align-items-center">
+                  <img
+                    class="img-fluid p-1 bg-secondary"
+                    src="/img/testimonial-2.jpg"
+                    alt=""
+                  />
+                  <div class="ps-3">
+                    <h3>Daniel Schouveller</h3>
+                    <span class="text-uppercase">Profession</span>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-item">
+                <p class="fs-4 fw-normal text-dark">
+                  <i class="fa fa-quote-left text-secondary me-3"></i>Jose and
+                  his team did an amazing job. We have hired them for the second
+                  time and will continue to work with them whenever needed. I
+                  highly recommend Larin Painting LLC.
+                </p>
+                <div class="d-flex align-items-center">
+                  <img
+                    class="img-fluid p-1 bg-secondary"
+                    src="/img/testimonial-1.jpg"
+                    alt=""
+                  />
+                  <div class="ps-3">
+                    <h3>Maria K. Siddiqui</h3>
+                    <span class="text-uppercase">Profession</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+      <div class="container py-5">
         <div class="row gx-0">
           <div class="col-lg-6" style="min-height: 400px">
             <div class="position-relative h-100">
               <img
                 class="position-absolute w-100 h-100"
-                src="img/vision.jpeg"
+                src="/img/service1/service1.2.jpeg"
                 style="object-fit: cover"
               />
             </div>
           </div>
           <div class="col-lg-6 my-lg-5 py-lg-5">
             <div class="about-end bg-dark p-5">
-              <h1 class="display-5 mb-4 text-white">Vision</h1>
-              <p class="text-white">
-                To be the leading and most trusted painting company in our
-                region, recognized for the excellence of our finishes, the
-                integrity of our team, and the use of top-quality materials. We
-                aspire to expand our aesthetic impact, building lasting
-                relationships with clients who value dedication, attention to
-                detail, and professionalism.
+              <h1 class="display-5 mb-4 text-white">Why Choose Us?</h1>
+              <p class="fs-9 mb-4 text-white">
+                We focus on delivering high-quality work to ensure customer
+                satisfaction. We cover and protect the furniture, floors,
+                carpets, and everything else necessary. Complete Cleanup After
+                Project
               </p>
               <a
-                href=""
+                href="../about.html"
                 class="btn btn-secondary rounded-pill py-md-3 px-md-5 mt-4"
-                >Get A Quote</a
+                >About Us</a
               >
             </div>
           </div>
@@ -251,177 +530,6 @@
       </div>
     </div>
     <!-- About End -->
-
-    <div class="container py-1">
-      <div class="text-center mb-5">
-        <h1 class="display-5">Project Gallery</h1>
-      </div>
-
-      <div class="row g-4">
-        <div class="col-md-4">
-          <img src="img/project1.jpeg" class="img-fluid rounded shadow" />
-        </div>
-
-        <div class="col-md-4">
-          <img src="img/project2.jpeg" class="img-fluid rounded shadow" />
-        </div>
-
-        <div class="col-md-4">
-          <img src="img/project3.jpeg" class="img-fluid rounded shadow" />
-        </div>
-      </div>
-      <a
-        href="/projects.html"
-        class="btn btn-secondary-projects rounded-pill py-md-3 px-md-5 mt-4"
-        >See all projects</a
-      >
-    </div>
-
-    <!-- Quote Start -->
-    <!-- <div
-      class="container-fluid bg-primary bg-quote py-5"
-      style="margin: 90px 0"
-    >
-      <div class="container py-5">
-        <div class="row g-0 justify-content-start">
-          <div class="col-lg-5">
-            <div class="bg-dark text-center p-5 rounded-3">
-              <h1 class="mb-4 text-white">Get A Quote</h1>
-              <form>
-                <div class="row g-3">
-                  <div class="col-12 col-sm-6">
-                    <input
-                      type="text"
-                      class="form-control bg-primary border-0"
-                      placeholder="Your Name"
-                      style="height: 55px"
-                    />
-                  </div>
-                  <div class="col-12 col-sm-6">
-                    <input
-                      type="email"
-                      class="form-control bg-primary border-0"
-                      placeholder="Your Email"
-                      style="height: 55px"
-                    />
-                  </div>
-                  <div class="col-12">
-                    <textarea
-                      class="form-control bg-primary border-0 py-3"
-                      rows="2"
-                      placeholder="Message"
-                    ></textarea>
-                  </div>
-                  <div class="col-12">
-                    <button class="btn btn-primary w-100 py-3" type="submit">
-                      Get A Quote
-                    </button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- Quote End -->
-
-    <!-- Team Start -->
-    <!--<div class="container-fluid py-5">
-      <div class="container py-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 500px">
-          <h1 class="display-5">Dedicated Team Members</h1>
-          <hr class="w-25 mx-auto text-primary" style="opacity: 1" />
-        </div>
-        <div class="row g-3">
-          <div class="col-lg-4 col-md-6">
-            <div class="team-item">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
-              <div class="team-text">
-                <div class="team-social">
-                  <a
-                    class="btn btn-lg btn-secondary btn-lg-square rounded-circle me-2"
-                    href="#"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a
-                    class="btn btn-lg btn-secondary btn-lg-square rounded-circle me-2"
-                    href="#"
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a
-                    class="btn btn-lg btn-secondary btn-lg-square rounded-circle me-2"
-                    href="#"
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                </div>
-                <div class="mt-auto mb-3">
-                  <h4 class="mb-1">Full Name</h4>
-                  <span class="text-uppercase">Designation</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="team-item">
-              <img class="img-fluid w-100" src="img/team-2.jpg" alt="" />
-              <div class="team-text">
-                <div class="team-social">
-                  <a
-                    class="btn btn-lg btn-secondary btn-lg-square rounded-circle me-2"
-                    href="#"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a
-                    class="btn btn-lg btn-secondary btn-lg-square rounded-circle me-2"
-                    href="#"
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a
-                    class="btn btn-lg btn-secondary btn-lg-square rounded-circle me-2"
-                    href="#"
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                </div>
-                <div class="mt-auto mb-3">
-                  <h4 class="mb-1">Full Name</h4>
-                  <span class="text-uppercase">Designation</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="team-item">
-              <img class="img-fluid w-100" src="img/team-3.jpg" alt="" />
-              <div class="team-text">
-                <div class="team-social">
-                  <a
-                    class="btn btn-lg btn-secondary btn-lg-square rounded-circle me-2"
-                    href="#"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a
-                    class="btn btn-lg btn-secondary btn-lg-square rounded-circle me-2"
-                    href="#"
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a
-                    class="btn btn-lg btn-secondary btn-lg-square rounded-circle me-2"
-                    href="#"
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                </div>
-                <div class="mt-auto mb-3">
-                  <h4 class="mb-1">Full Name</h4>
-                  <span class="text-uppercase">Designation</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>-->
-    <!-- Team End -->
 
     <!-- Call To Action Start -->
     <div
@@ -437,9 +545,9 @@
               here to help you with your project and make it a success
             </p>
             <a
-              href="/contact.html"
+              href="../contact.html"
               class="btn btn-secondary rounded-pill py-md-3 px-md-5 mt-4"
-              >Contact Us</a
+              >Get A Quote</a
             >
           </div>
         </div>
@@ -599,11 +707,11 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="/lib/easing/easing.min.js"></script>
+    <script src="/lib/waypoints/waypoints.min.js"></script>
+    <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>
