@@ -70,7 +70,7 @@
 function sendRequest() {
   const name = document.getElementById("name").value;
   const phone = document.getElementById("phone").value;
-  const project = document.getElementById("message").value;
+  const message = document.getElementById("message").value;
 
   if (name === "") {
     const form = document.getElementById("quoteForm");
@@ -116,7 +116,7 @@ My Phone: ${phone}
 Service: ${services || "No service selected"}
 
 Project:
-${project}`;
+${message}`;
 
   if (method === "whatsapp") {
     window.open(
