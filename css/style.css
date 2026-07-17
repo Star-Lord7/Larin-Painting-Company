@@ -285,6 +285,69 @@
     top left;
 }
 
+/* Tarjeta */
+.testimonial-item {
+  background: #fff;
+  border-radius: 25px;
+  padding: 35px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+/* Cabecera */
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.testimonial-stars {
+  color: #fbbc04;
+  font-size: 22px;
+}
+
+.testimonial-date {
+  color: #777;
+  font-size: 18px;
+}
+
+/* Texto */
+.testimonial-text {
+  font-size: 22px;
+  line-height: 1.8;
+  color: #333;
+  margin: 25px 0;
+}
+
+/* Usuario */
+.testimonial-user {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-user img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 18px;
+}
+
+.testimonial-user h5 {
+  margin: 0;
+  font-weight: 700;
+  color: #222;
+}
+
+.testimonial-user small {
+  color: #777;
+}
+
 @media (max-width: 991.98px) {
   .bg-testimonial {
     background:
