@@ -680,6 +680,12 @@ progress {
     height: 350px;
     object-fit: cover;
   }
+
+  .gallery-image-service3 {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+  }
 }
 @media (min-width: 1200px) {
   .container-xl,
